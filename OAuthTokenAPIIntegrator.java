@@ -1,3 +1,5 @@
+package com.example;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -16,7 +18,7 @@ import org.json.JSONObject;
  * 
  * There are other client libraries can be also used like HttpOk or HttpClient(http://www.baeldung.com/httpclient-post-http-request).
  * 
- * @author sbhawsar
+ * @author thinkhr
  *
  */
 public class OAuthTokenAPIIntegrator {
@@ -28,7 +30,7 @@ public class OAuthTokenAPIIntegrator {
     
     public static void main(String[] args) {
 
-        String oauthTokenUrl = "https://developers.thinkhr.com/v1/oauth/token";
+        String oauthTokenUrl = "<<Thinkhr-OAuth token URL>>"; //Sandbox URL is https://restapis.thinkhr-sandbox.com/v1/oauth/token
         String consumerKey = "<<Your consumer_key>>";
         String consumerSecret = "<<Your consumer secret>>";
         String username = "<<Your user name>>";
